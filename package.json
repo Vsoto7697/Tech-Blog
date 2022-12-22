@@ -1,0 +1,25 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vsoto7697/Tech-Blog.git"
+  },
+  "author": "Victor Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vsoto7697/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/Vsoto7697/Tech-Blog#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.28.0"
+  }
+}
