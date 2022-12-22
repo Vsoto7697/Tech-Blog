@@ -23,4 +23,28 @@
             {{/if}}
         </nav>
     </header>
+
+    <main>
+            {{{ body }}}
+    </main>
+
+    <footer class="footer">
+        <div>
+            <p>
+            <a href="/">homepage</a>{{#if loggedIn}} | 
+            <a href="/dashboard/">dashboard</a> | 
+            <a href="/dashboard/create/">create new post</a>
+            {{else}}
+             | <a href="/login/">login  </a>
+            {{/if}}
+            </p>
+        </div>
+      <div>
+    <p>
+
+    {{#if loggedIn}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
+</body>
+
 </html>
