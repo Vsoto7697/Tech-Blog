@@ -6,17 +6,16 @@ body, html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
     color: black;
 }
 
 .main-title {
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(#ccc, royalblue);
+    background-image: linear-gradient(#ccc, lightblue);
 }
 
 .navbar {
-    color: rgb(17, 174, 100);
+    color: orange;
 }
 
 a {
@@ -26,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: royalblue;
+    color: lightblue;
 }
 
 button {
@@ -50,7 +49,7 @@ textarea, input {
 
 textarea:focus, input:focus {
     outline: rgb(17, 174, 100);
-    border: 2px solid royalblue;
+    border: 2px solid lightblue;
 }
 
 textarea {
@@ -94,7 +93,7 @@ main {
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: royalblue;
+    color: lightblue;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -103,7 +102,7 @@ main {
   
 .btn:hover {
     background: none;
-    color: #3486eb;
+    color: lightblue;
 }
   
 .delete-post-btn {
